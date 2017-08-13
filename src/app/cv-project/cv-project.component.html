@@ -1,0 +1,24 @@
+<section class="sheet">
+
+  <div class="ui grid">
+
+    <div class="one grey centered column row head">
+      <h2 class="ui header">
+        <div class="content">
+          Project details
+          <div class="blue sub header">{{basics?.name}}</div>
+        </div>
+      </h2>
+      <div class="information">
+        <div class="info"><i class="home icon"></i>{{basics?.location}}</div>
+        <div class="info"><i class="mail icon"></i><a href="mailto:{{basics?.email}}">{{basics?.email}}</a></div>
+        <div class="info"><i class="phone icon"></i>{{basics?.phone}}</div>
+        <div class="info"><i class="github icon"></i><a href="{{basics?.github?.url}}" target="blank">{{basics?.github?.username}}</a></div>
+      </div>
+    </div>
+
+    <div *ngFor="let project of projectList" class="ui vertical segment">
+      <app-project [project]="project"></app-project>
+    </div>
+  </div>
+</section>

@@ -1,4 +1,5 @@
-import projects from './cv-project.data';
+import { PersonnalInformation } from './personnal-information';
+import { projects, basics } from './cv-project.data';
 import { Project } from './project/project';
 import { Component, OnInit } from '@angular/core';
 
@@ -9,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CvProjectComponent implements OnInit {
 
+  basics: PersonnalInformation = basics;
   projectList: Project[] = projects;
 
   constructor() { }
