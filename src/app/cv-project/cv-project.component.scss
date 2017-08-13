@@ -1,0 +1,54 @@
+.ui.vertical.segment {
+  padding: 1rem 3rem;
+  min-width: 100%;
+}
+
+.ui.grid>.grey.column, .ui.grid>.grey.row, .ui.grid>.row>.grey.column {  
+  background-color: #EFEFEF !important;
+  color: black;
+}
+
+.ui.header {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+
+  .ui.pointing.label {
+    display: block;
+    margin: .5rem 0 0 0;
+  }
+}
+
+.info {
+  display: inline-block;
+
+  &+ .info {
+    margin-left: .5rem;
+  }
+}
+
+.information {
+
+  padding: 0 25%;
+  a {
+    color: inherit;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.blue.sub.header {
+  color: #147BC2;
+  font-weight: bold;
+}
+
+/deep/
+.ui.blue.label {
+  background-color: #147BC2 !important;
+}
+
+/deep/
+.ui.orange.label {
+  background-color: #DF7401 !important;
+}

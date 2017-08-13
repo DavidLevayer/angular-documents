@@ -1,0 +1,27 @@
+.right-floated {
+  float: right;
+}
+
+.ui.header {
+  margin-bottom: .6rem;
+
+  .sub.header {
+    display: inline-block;
+    margin-left: .5rem;
+  }
+}
+
+.ui.horizontal.label {
+  margin-top: .6rem;
+}
+
+a.github {
+  
+  font-size: 1.5rem;
+  margin-top: -.1rem;
+  color: black;
+  
+  i.github {
+    margin-right: 0;
+  }
+}
