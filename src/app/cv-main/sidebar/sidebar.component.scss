@@ -7,14 +7,18 @@
 
 .ui.segment {
     background-color: inherit;
+    padding: .6rem;
 }
 
 .ui.circular.image {
     border: 1px solid lightgray;
+    max-width: 150px;
+    margin: auto;
 }
 
 .ui.header {
     color: $primary;
+    margin-bottom: 0;
 }
 
 .ui.list {
@@ -37,11 +41,11 @@
     background-color: $primary;
     border-radius: 0;
   }
-}
 
-.ui.progress>.label {
-  padding-left: .5rem;
-  text-align: left;
+  .label {
+    text-align: left;
+    top: -150%;
+  }
 }
 
 i.inverted.primary.icon {
