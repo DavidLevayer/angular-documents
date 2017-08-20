@@ -1,4 +1,4 @@
-import { GithubInformation, PersonnalInformation } from './personnal-information';
+import { PersonnalInformation, GithubInformation } from '../core/personnal-information';
 import { Project } from './project/project';
 
 export var basics: PersonnalInformation = new PersonnalInformation(

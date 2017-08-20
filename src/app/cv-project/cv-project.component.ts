@@ -1,4 +1,4 @@
-import { PersonnalInformation } from './personnal-information';
+import { PersonnalInformation } from '../core/personnal-information';
 import { projects, basics } from './cv-project.data';
 import { Project } from './project/project';
 import { Component, OnInit } from '@angular/core';
