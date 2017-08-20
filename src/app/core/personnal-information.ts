@@ -7,7 +7,7 @@ export class PersonnalInformation {
   linkedIn: UserInformation;
   github: UserInformation;
 
-  constructor(name: string, position: string, location: string, email: string, phone: string, linkedIn: UserInformation, 
+  constructor(name: string, position: string, location: string, email: string, phone: string, linkedIn: UserInformation,
     github: UserInformation) {
     this.name = name;
     this.position = position;
