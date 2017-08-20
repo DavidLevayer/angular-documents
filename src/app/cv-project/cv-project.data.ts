@@ -3,6 +3,7 @@ import { Project } from './project/project';
 
 export var basics: PersonnalInformation = new PersonnalInformation(
   'John DOE',
+  '', // position not used yet
   'Somewhere in France',
   'john.doe@mail.com',
   '+33 1 22 33 44 55',

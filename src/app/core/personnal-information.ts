@@ -1,12 +1,14 @@
 export class PersonnalInformation {
   name: string;
+  position: string;
   location: string;
   email: string;
   phone: string;
   github: GithubInformation;
 
-  constructor(name: string, location: string, email: string, phone: string, github: GithubInformation) {
+  constructor(name: string, position: string, location: string, email: string, phone: string, github: GithubInformation) {
     this.name = name;
+    this.position = position;
     this.location = location;
     this.email = email;
     this.phone = phone;
