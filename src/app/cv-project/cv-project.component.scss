@@ -1,10 +1,12 @@
+@import '../core/colors.core.scss';
+
 .ui.vertical.segment {
   padding: 1rem 3rem;
   min-width: 100%;
 }
 
 .ui.grid>.grey.column, .ui.grid>.grey.row, .ui.grid>.row>.grey.column {  
-  background-color: #EFEFEF !important;
+  background-color: $highlighted-background !important;
   color: black;
 }
 
@@ -45,10 +47,10 @@
 
 /deep/
 .ui.blue.label {
-  background-color: #147BC2 !important;
+  background-color: $primary !important;
 }
 
 /deep/
 .ui.orange.label {
-  background-color: #DF7401 !important;
+  background-color: $secondary !important;
 }
