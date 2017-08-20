@@ -22,7 +22,7 @@
       <div class="item">
         <i class="inverted primary circular mail icon"></i>
         <div class="content">
-          {{basics?.email}}
+          <a [href]="'mailto:' + basics?.email">{{basics?.email}}</a>
         </div>
       </div>
       <div class="item">
@@ -34,7 +34,7 @@
       <div class="item">
         <i class="inverted primary circular github icon"></i>
         <div class="content">
-          github.com/{{basics?.github?.username}}
+          <a [href]="basics?.github?.url">github.com/{{basics?.github?.username}}</a>
         </div>
       </div>
     </div>
