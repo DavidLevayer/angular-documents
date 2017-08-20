@@ -1,4 +1,4 @@
-import { PersonnalInformation, GithubInformation } from '../core/personnal-information';
+import { PersonnalInformation, UserInformation } from '../core/personnal-information';
 import { Project } from './project/project';
 
 export var basics: PersonnalInformation = new PersonnalInformation(
@@ -7,7 +7,11 @@ export var basics: PersonnalInformation = new PersonnalInformation(
   'Somewhere in France',
   'john.doe@mail.com',
   '+33 1 22 33 44 55',
-  new GithubInformation(
+  new UserInformation(
+    'John Doe',
+    'https://www.linkedin.com/'
+  ),
+  new UserInformation(
     'JohnDoe',
     'https://github.com/'
   )

@@ -1,7 +1,7 @@
 import { ContentSection } from './content/content-section';
 import { ContentItem } from './content-item/content-item';
 import { Skill } from './sidebar/skill';
-import { PersonnalInformation, GithubInformation } from '../core/personnal-information';
+import { PersonnalInformation, UserInformation } from '../core/personnal-information';
 
 export const basics: PersonnalInformation = new PersonnalInformation(
   'John DOE',
@@ -9,7 +9,11 @@ export const basics: PersonnalInformation = new PersonnalInformation(
   'Somewhere in France',
   'john.doe@mail.com',
   '+33 1 22 33 44 55',
-  new GithubInformation(
+  new UserInformation(
+    'John Doe',
+    'https://www.linkedin.com/'
+  ),
+  new UserInformation(
     'JohnDoe',
     'https://github.com/'
   )
