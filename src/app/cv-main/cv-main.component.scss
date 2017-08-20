@@ -1,0 +1,10 @@
+@import '../core/colors.core.scss';
+
+.ui.grid {
+    min-height: 100%;
+    margin: 0;
+
+    .sidebar {
+        background-color: $highlighted-background;
+    }
+}

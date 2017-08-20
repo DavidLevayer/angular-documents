@@ -1,0 +1,62 @@
+<div class="ui segments">
+
+  <div class="ui segment">
+    <img class="ui medium circular image" src="/assets/cv-main/avatar.png">
+  </div>
+
+  <div class="ui center aligned segment">
+    <h2 class="ui header">
+      {{basics?.name}}
+      <div class="sub header">{{basics?.position}}</div>
+    </h2>
+  </div>
+
+  <div class="ui segment">
+    <div class="ui list">
+      <div class="item">
+        <i class="inverted primary circular home icon"></i>
+        <div class="content">
+          {{basics?.location}}
+        </div>
+      </div>
+      <div class="item">
+        <i class="inverted primary circular mail icon"></i>
+        <div class="content">
+          {{basics?.email}}
+        </div>
+      </div>
+      <div class="item">
+        <i class="inverted primary circular phone icon"></i>
+        <div class="content">
+          {{basics?.phone}}
+        </div>
+      </div>
+      <div class="item">
+        <i class="inverted primary circular github icon"></i>
+        <div class="content">
+          github.com/{{basics?.github?.username}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="aboutMe && aboutMe.length > 0" class="ui segment">
+    <h2 class="ui header">
+      About me
+    </h2>
+    <p>{{aboutMe}}</p>
+  </div>
+
+  <div *ngIf="skills && skills.length > 0" class="ui segment">
+    <h2 class="ui header">
+      Skills
+    </h2>
+    <div *ngFor="let skill of skills" class="ui primary small progress">
+      <div class="label">{{skill.name}}</div>
+      <div class="bar" [style.width]="skill.level">
+        <div class="progress"></div>
+      </div>
+    </div>
+  </div>
+
+</div>
