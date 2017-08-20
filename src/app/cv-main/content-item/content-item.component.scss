@@ -1,12 +1,21 @@
 @import '../../core/colors.core.scss';
 
+.ui.grid {
+  margin: .35rem 0 0 0;
+}
+
+.column {
+  padding: 0 !important;
+}
+
 .inline {
   display: inline-block;
 }
 
-.small.header {
-  margin-bottom: .2rem;
+.tiny.header {
+  margin-bottom: 0;
   color: $secondary;
+  font-size: small;
   font-weight: normal;
 }
 
@@ -17,6 +26,10 @@
 }
 
 .description {
-  font-size: small;
+  font-size: smaller;
   text-align: justify;
+}
+
+.date {
+  font-size: smaller;
 }
