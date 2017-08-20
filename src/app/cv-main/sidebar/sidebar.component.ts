@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
 export class SidebarComponent implements OnInit {
 
   basics: PersonnalInformation = basics;
-  aboutMe: string = aboutMe;
+  aboutMe: string[] = aboutMe;
   skills: Skill[] = skills;
 
   constructor() { }

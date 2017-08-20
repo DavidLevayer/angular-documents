@@ -50,7 +50,7 @@
     <h2 class="ui header">
       About me
     </h2>
-    <p>{{aboutMe}}</p>
+    <p *ngFor="let paragraph of aboutMe">{{paragraph}}</p>
   </div>
 
   <div *ngIf="skills && skills.length > 0" class="ui segment">
