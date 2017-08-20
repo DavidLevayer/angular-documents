@@ -1,0 +1,22 @@
+@import '../../core/colors.core.scss';
+
+.inline {
+  display: inline-block;
+}
+
+.small.header {
+  margin-bottom: .2rem;
+  color: $secondary;
+  font-weight: normal;
+}
+
+.sub.header {
+  float: right;
+  color: #AAA;
+  font-size: smaller;
+}
+
+.description {
+  font-size: small;
+  text-align: justify;
+}

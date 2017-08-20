@@ -1,3 +1,10 @@
-<p>
-  content works!
-</p>
+<div class="ui segments">
+  <div *ngFor="let section of sections" class="ui segment">
+    <div class="ui large primary label">
+      {{section.name}}
+    </div>
+    <div class="ui items">
+      <app-content-item *ngFor="let item of section.contentItems" [contentItem]="item"></app-content-item>
+    </div>
+  </div>
+</div>

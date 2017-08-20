@@ -1,0 +1,20 @@
+@import '../../core/colors.core.scss';
+
+.ui.segments, .ui.segments>.segment {
+    border: none;
+    box-shadow: none;
+}
+
+.ui.segment {
+    background-color: inherit;
+}
+
+.ui.primary.label {
+  background-color: $primary;
+  color: white;
+  padding: .5833rem 1.5rem;
+}
+
+.ui.items {
+  margin-top: 1rem;
+}
