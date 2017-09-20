@@ -11,8 +11,13 @@
   }
 }
 
-.ui.horizontal.label {
-  margin-top: .6rem;
+.ui.label {
+
+  font-weight: normal;
+  
+  &.horizontal {
+    margin-top: .6rem;
+  }
 }
 
 a.github {
@@ -25,3 +30,9 @@ a.github {
     margin-right: 0;
   }
 }
+
+.description p {
+  font-size: smaller;
+}
+
+
