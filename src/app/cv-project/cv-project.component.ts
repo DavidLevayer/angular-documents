@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
 export class CvProjectComponent implements OnInit {
 
   basics: PersonnalInformation = basics;
-  projectList: Project[] = projects;
+  projects: Project[][] = projects;
 
   constructor() { }
 

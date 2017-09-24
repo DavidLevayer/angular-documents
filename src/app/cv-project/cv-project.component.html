@@ -1,8 +1,8 @@
-<section class="sheet">
+<section *ngFor="let projectList of projects; let i = index" class="sheet">
 
   <div class="ui grid">
 
-    <div class="one grey centered column row head">
+    <div *ngIf="i == 0" class="one grey centered column row head">
       <h2 class="ui header">
         <div class="content">
           Project details

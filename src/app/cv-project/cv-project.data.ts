@@ -17,7 +17,7 @@ export var basics: PersonnalInformation = new PersonnalInformation(
   )
 );
 
-export var projects: Project[] = [
+export var page1: Project[] = [
   new Project(
     'Awesome project',
     'Personnal',
@@ -55,3 +55,29 @@ export var projects: Project[] = [
     3
   )
 ];
+
+export var page2: Project[] = [
+  new Project(
+    'Awesome project',
+    'Personnal',
+    'Since August 2017',
+    'Tech lead',
+    '<b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    '',
+    ['Awesome tech', 'Git', 'Responsive', 'Wow!'],
+    3,
+    'https://github.com/'
+  ),
+  new Project(
+    'No github project',
+    '@ EvilCorp',
+    '2015',
+    'Enthousiast developer',
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    '',
+    ['Awesome tech', 'Git', 'Responsive', 'Wow!'],
+    3
+  )
+];
+
+export var projects: Project[][] = [page1, page2];

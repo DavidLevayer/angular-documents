@@ -3,6 +3,10 @@
 .ui.vertical.segment {
   padding: 1rem 3rem;
   min-width: 100%;
+
+  &:first-child {
+    margin-top: 3rem;
+  }
 }
 
 .ui.grid>.grey.column, .ui.grid>.grey.row, .ui.grid>.row>.grey.column {  
