@@ -20,6 +20,7 @@
 <div class="description">
   <p [innerHtml]="project?.description"></p>
 </div>
+<div *ngIf="project?.highlight" class="ui mini message" [innerHtml]="project.highlight"></div>
 <div class="extra">
   <div *ngFor="let keyword of project?.keywords" class="ui horizontal label">{{keyword}}</div>
 </div>
