@@ -1,3 +1,4 @@
+import { CategorizedSkill } from './skills/categorized-skill';
 import { PersonnalInformation, UserInformation } from '../core/personnal-information';
 import { Project } from './project/project';
 
@@ -16,6 +17,33 @@ export var basics: PersonnalInformation = new PersonnalInformation(
     'https://github.com/'
   )
 );
+
+export var skillMatrix: CategorizedSkill[] = [
+  new CategorizedSkill(
+    'Languages',
+    'Java (5, 6 et 7), Java EE, Perl, C, SQL, XML, Java (5, 6 et 7), Java EE, Perl, C, SQL, XML'
+  ),
+  new CategorizedSkill(
+    'Frameworks',
+    'Spring, Struts, EJB, Vaadin, GWT'
+  ),
+  new CategorizedSkill(
+    'Languages',
+    'Java (5, 6 et 7), Java EE, Perl, C, SQL, XML'
+  ),
+  new CategorizedSkill(
+    'Frameworks',
+    'Spring, Struts, EJB, Vaadin, GWT'
+  ),
+  new CategorizedSkill(
+    'Languages',
+    'Java (5, 6 et 7), Java EE, Perl, C, SQL, XML'
+  ),
+  new CategorizedSkill(
+    'Frameworks',
+    'Spring, Struts, EJB, Vaadin, GWT'
+  )
+];
 
 export var page1: Project[] = [
   new Project(

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { CvProjectComponent } from './cv-project.component';
 import { NgModule } from '@angular/core';
 import { ProjectComponent } from './project/project.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   imports: [
@@ -10,7 +11,7 @@ import { ProjectComponent } from './project/project.component';
     FormsModule
   ],
   exports: [CvProjectComponent],
-  declarations: [CvProjectComponent, ProjectComponent],
+  declarations: [CvProjectComponent, ProjectComponent, SkillsComponent],
   providers: [],
 })
 export class CvProjectModule { }

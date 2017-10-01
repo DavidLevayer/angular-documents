@@ -17,6 +17,10 @@
       </div>
     </div>
 
+    <div *ngIf="i == 0" class="ui vertical segment">
+      <app-skills [skills]="skills"></app-skills>
+    </div>
+
     <div *ngFor="let project of projectList" class="ui vertical segment">
       <app-project [project]="project"></app-project>
     </div>

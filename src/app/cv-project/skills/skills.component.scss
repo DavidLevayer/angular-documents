@@ -1,0 +1,17 @@
+
+.ui.grid {
+  padding: 1rem 0;
+}
+
+.ui.grid>.column {
+  padding: 0.3rem 1rem;
+
+  &.header {
+    text-align: right;
+    font-weight: bold;
+  }
+}
+
+.ui.info.message {
+  height: 100%;
+}
