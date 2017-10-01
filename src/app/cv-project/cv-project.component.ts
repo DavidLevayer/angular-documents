@@ -1,6 +1,6 @@
 import { CategorizedSkill } from './skills/categorized-skill';
 import { PersonnalInformation } from '../core/personnal-information';
-import { basics, projects, skillMatrix } from './cv-project.data';
+import { basics, projects, projectTasks, skillMatrix } from './cv-project.data';
 import { Project } from './project/project';
 import { Component, OnInit } from '@angular/core';
 
@@ -14,6 +14,7 @@ export class CvProjectComponent implements OnInit {
   basics: PersonnalInformation = basics;
   projects: Project[][] = projects;
   skills: CategorizedSkill[] = skillMatrix;
+  tasks: string[] = projectTasks;
 
   constructor() { }
 

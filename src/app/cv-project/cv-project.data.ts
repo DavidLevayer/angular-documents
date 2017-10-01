@@ -45,6 +45,12 @@ export var skillMatrix: CategorizedSkill[] = [
   )
 ];
 
+export var projectTasks: string[] = [
+  'Add cool backend features',
+  'Draw beautiful web interfaces',
+  'Save the world'
+];
+
 export var page1: Project[] = [
   new Project(
     'Awesome project',

@@ -11,5 +11,8 @@ export class SkillsComponent {
   @Input()
   skills: CategorizedSkill[];
 
+  @Input()
+  tasks: string[];
+
   constructor() { }
 }
