@@ -8,11 +8,10 @@ Angular documents project provides an easy way to design simple, beautiful and p
 
 Ready to start to compose your own documents? It's quite easy:
 
-* Install the latest [NodeJS / NPM](https://nodejs.org/en/download/) (if not already done)
+* Install Docker and Docker Compose ([Official documentation](https://docs.docker.com/engine/install))
 * Fork or clone this repository
 * Go into the `angular-documents` folder
-* Run `npm install` to download all dependencies
-* Run `npm start` to start Angular
+* Run `docker-compose up -d`
 * Open your favorite Web browser and hit http://localhost:4200
 * Enjoy!
 

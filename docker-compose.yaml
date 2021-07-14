@@ -1,0 +1,10 @@
+version: "3.8"
+services: 
+  node:
+    build: .      
+    ports: 
+      - "4200:4200"
+    volumes: 
+      - "./src:/app/src"
+    stdin_open: true
+    tty: true
